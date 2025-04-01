@@ -11,8 +11,6 @@ install.packages("pheatmap")
 install.packages("RColorBrewer")
 
 Usage
-Clone the repository:
-git clone https://github.com/yourusername/heatmap-visualization.git
 cd heatmap-visualization
 Open R or RStudio.
 Run the script in your R environment.
