@@ -24,7 +24,6 @@ Fol4287_on_Tomato
 Fol4287_on_Marchantia
 
 Customization
-
 Modify the breaks variable to change data range segmentation.
 Adjust the colorRampPalette to use different color schemes.
 Toggle cluster_cols and cluster_rows for hierarchical clustering preferences.
