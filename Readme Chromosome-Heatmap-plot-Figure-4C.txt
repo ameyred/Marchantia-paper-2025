@@ -20,9 +20,6 @@ install.packages("RColorBrewer")
 install.packages("dplyr")
 
 Usage
-Clone this repository:
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
 Open the R script (heatmap_script.R) and update the file path to your dataset:
 data <- read.csv("your-file-path.csv")
 Run the script in R:
