@@ -8,7 +8,7 @@ library(dplyr)    # For data manipulation
 # ==========================================
 
 # Read the CSV file containing experimental data
-data <- read_csv("~/Amey_Lab/Marchantia/For_Submission/TO_NCBS/Figure_1/Figure_1B_Coming_Soon/Figure_1B.csv") 
+data <- read_csv(".csv") 
 
 # Convert 'Sample' column into a factor to ensure proper ordering in the plot
 data$Sample <- factor(data$Sample, levels = unique(data$Sample))
