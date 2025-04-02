@@ -11,7 +11,7 @@ library(tidyr)    # For data reshaping
 # =============================================
 
 # Load 2DPI data
-data <- read.csv("~/Amey_Lab/Marchantia/2DPI_Mar_Defense.csv")
+data <- read.csv(".csv")
 
 # Rename first column to avoid conflicts
 colnames(data)[1] <- "Condition"
