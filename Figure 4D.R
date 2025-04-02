@@ -4,7 +4,7 @@ library(dplyr)      # For data manipulation
 library(tibble)     # For data frame operations
 
 # Load the main dataset (all chromosomes)
-data <- read.csv("~/Amey_Lab/Marchantia/Fol_erc3/Secretome_Comparison.csv", row.names = 1)
+data <- read.csv(".csv", row.names = 1)
 
 # =============================================
 # ANALYSIS OF NON-ZERO POINTS (ALL CHROMOSOMES)
