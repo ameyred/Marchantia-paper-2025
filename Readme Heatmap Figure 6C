@@ -1,0 +1,36 @@
+# Chalcone Synthase Gene Expression Heatmap
+
+## Overview
+This script creates a heatmap visualization of log2 fold change expression data for Chalcone Synthase genes comparing Fo47 and Fol4287 conditions.
+
+## Key Features
+- White-to-red color gradient representing expression levels
+- Fixed color scale from 0 to 10 log2FC
+- Clean layout without clustering or dendrograms
+- Publication-ready formatting
+
+## Dependencies
+- R (version 4.0+ recommended)
+- Required packages:
+  - `pheatmap` (v1.0.12+)
+  - `RColorBrewer` (v1.1-2+)
+
+## Input Data
+- **File**: `Chalcone_Synthase.csv`
+- **Location**: `~/Amey_Lab/Marchantia/For_Submission/Figure_6/Marchantia_Defense_RNA_Seq/Defense_Genes/`
+- **Required Columns**:
+  - `log2FC_Fo47`: log2 fold change values for Fo47 condition
+  - `log2FC_Fol4287`: log2 fold change values for Fol4287 condition
+
+## Customization Options
+
+### Color Scheme
+1. Change gradient colors in `colorRampPalette()`:
+   - Current: `c("#FFFFFF", "#B1172C")` (white to red)
+   - Alternative: `c("blue", "white", "red")` for divergent scale
+
+### Layout Adjustments
+1. To show row names:
+   ```r
+   show_rownames = TRUE,
+   fontsize_row = 8
