@@ -9,7 +9,7 @@ library(viridis)      # For color scales
 
 # Import Data
 # TSV file containing enriched InterPro terms from down-regulated genes in ERC3 condition
-data <- read.csv("~/Amey_Lab/Marchantia/Interpro_Term_Enrichment/Down_Regulated/erc3/utput.FUNC-E.enriched_terms_nr.tsv", 
+data <- read.csv(".tsv", 
                  sep = "\t") 
 
 # DATA PREPARATION
