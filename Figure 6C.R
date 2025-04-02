@@ -6,7 +6,7 @@ library(pheatmap)       # For creating heatmaps
 library(RColorBrewer)   # For color palettes (though not directly used here)
 
 # Import data from CSV file
-data <- read.csv("~/Amey_Lab/Marchantia/For_Submission/Figure_6/Marchantia_Defense_RNA_Seq/Defense_Genes/Chalcone_Synthase.csv")
+data <- read.csv(".csv")
 
 # Define breaks for color scale (0 to 10 in 1-unit increments)
 breaks <- seq(0, 10, 1)
