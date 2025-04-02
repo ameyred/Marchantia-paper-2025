@@ -9,7 +9,7 @@ library(ggplot2)      # For creating the plot (also loaded by tidyverse)
 
 # Import DESeq2 results data
 # File contains differential expression analysis results
-data <- read.csv("~/Amey_Lab/Marchantia/Fol_erc3/erc3_AX/DESeq2_erc3_Output.csv")
+data <- read.csv(".csv")
 
 # Create the volcano plot
 p <- ggplot(data, aes(x = log2FoldChange, y = -log10(padj))) +
